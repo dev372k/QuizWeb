@@ -7,13 +7,12 @@ const userSchema = new mongoose.Schema({
         trim: true,
     },
 
-    emai: {
+    email: {
         type: String,
         required: true,
         unique: true,
         lowercase: true,
         trim: true,
-
     },
   },  
 {
